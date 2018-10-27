@@ -12,6 +12,7 @@ package myfirstapp;
  class Circle {
    private  float radius ;
    private Point point;  
+   private Status status ;
 
    public Circle (){}
     public Circle(float radius) {
@@ -21,6 +22,14 @@ package myfirstapp;
     public Circle(float radius, Point p) {
         this.radius = radius;
         this.point = p;
+    }
+
+    public Status getStatus() {
+        return status;
+    }
+
+    public void setStatus(Status status) {
+        this.status = status;
     }
 
    
